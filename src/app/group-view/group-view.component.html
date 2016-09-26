@@ -10,21 +10,21 @@
             <ngb-accordion [closeOthers]="true">
               <ngb-panel *ngFor="let cat of section.categories">
                 <template ngbPanelTitle>
-                  {{ cat.name }} <span *ngIf="cat.isNew == true" class="tag tag-primary">NEW</span>
+                  {{ cat.name }} <span *ngIf="cat.isNew" class="tag tag-primary">NEW</span>
                 </template>
                 <template ngbPanelContent>
                   <div *ngFor="let topic of cat.topics" class="col-sm-6">
                     <div class="card">
-                      <div class="card-block">
-                        <div class="card-title" (click)="topic.isCollapsed = !topic.isCollapsed">
+                      <div class="card-block" (click)="topic.isCollapsed = !topic.isCollapsed">
+                        <div class="card-text text-primary">
                           <b>{{ topic.name }}</b>
-                          <i class="fa" [class.fa-chevron-down]="topic.isCollapsed" [class.fa-chevron-up]="!topic.isCollapsed"></i>
+                          <i class="pull-sm-right fa" [class.fa-chevron-down]="topic.isCollapsed" [class.fa-chevron-up]="!topic.isCollapsed"></i>
                         </div>
                       </div>
                       <ul class="list-group list-group-flush" [ngbCollapse]="topic.isCollapsed">
-                        <li class="list-group-item" *ngFor="let item of topic.items">
-                          <a href="{{ item.href }}" target="_onblank">{{ item.name }}</a>
-                        </li>
+                        <a class="list-group-item bgd-lightgray-hover" href="{{ item.href }}" target="_onblank" *ngFor="let item of topic.items">
+                          {{ item.name }}
+                        </a>
                       </ul>
                     </div>
                   </div>

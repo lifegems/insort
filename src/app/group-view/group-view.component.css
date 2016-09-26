@@ -1,0 +1,8 @@
+.card {
+	cursor: pointer;
+}
+
+.bgd-lightgray-hover:hover {
+	background-color: #ddccdd;
+	text-decoration: none;
+}
