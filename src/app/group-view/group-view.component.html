@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+      <h2>Categories</h2>
+      <p>Use the In-sort tool to easily find articles in the Insight book. To find an article, select the category and section that it might appear. Then you will find a list of topics and related items. For example, you might be interested in reading about <i>apples</i>. Navigate to Things > Food > Fruits > Apple</p>
+      <ngb-tabset>
+        <ngb-tab *ngFor="let section of aSections" title="{{ section.name }}">
+          <template ngbTabContent>
+            <ngb-accordion [closeOthers]="true">
+              <ngb-panel *ngFor="let cat of section.categories">
+                <template ngbPanelTitle>
+                  {{ cat.name }} <span *ngIf="cat.isNew == true" class="tag tag-primary">NEW</span>
+                </template>
+                <template ngbPanelContent>
+                  <div *ngFor="let topic of cat.topics" class="col-sm-6">
+                    <div class="card">
+                      <div class="card-block">
+                        <div class="card-title" (click)="topic.isCollapsed = !topic.isCollapsed">
+                          <b>{{ topic.name }}</b>
+                          <i class="fa" [class.fa-chevron-down]="topic.isCollapsed" [class.fa-chevron-up]="!topic.isCollapsed"></i>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush" [ngbCollapse]="topic.isCollapsed">
+                        <li class="list-group-item" *ngFor="let item of topic.items">
+                          <a href="{{ item.href }}" target="_onblank">{{ item.name }}</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </template>
+              </ngb-panel>
+            </ngb-accordion>
+          </template>
+        </ngb-tab>
+      </ngb-tabset>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+</div>
