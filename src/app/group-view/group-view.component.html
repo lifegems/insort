@@ -11,6 +11,7 @@
               <ngb-panel *ngFor="let cat of section.categories">
                 <template ngbPanelTitle>
                   {{ cat.name }} <span *ngIf="cat.isNew" class="tag tag-primary">NEW</span>
+                  <i class="pull-sm-right fa fa-chevron-down"></i>
                 </template>
                 <template ngbPanelContent>
                   <div *ngFor="let topic of cat.topics" class="col-sm-6">

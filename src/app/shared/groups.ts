@@ -12,6 +12,20 @@ export class Groups {
             {
               code: 'GREEKSCRIPTURES',
               name: 'Greek Scriptures'
+            },
+            {
+              code: 'HEBREWSCIPTURES',
+              name: 'Hebrew Scriptures'
+            }
+          ]
+        },
+        {
+          code: 'KINGSOFISRAEL',
+          name: 'Kings of Israel',
+          topics: [
+            {
+              code: '10TRIBE',
+              name: 'Ten-Tribe Kingdom of Israel'
             }
           ]
         }
@@ -683,12 +697,16 @@ export class Groups {
     {
        name: "Agur",
        href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200000137",
-       paths: []
+       paths: [
+        'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+       ]
     },
     {
        name: "Ahab",
        href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200000138",
-       paths: []
+       paths: [
+        'PEOPLE.KINGSOFISRAEL.10TRIBE'
+       ]
     },
     {
        name: "Aharah",
