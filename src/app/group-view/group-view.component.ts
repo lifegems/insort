@@ -14,10 +14,10 @@ export class GroupViewComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.aSections = listInfoForView();
+    this.aSections = this.listInfoForView();
   }
 
-  function listInfoForView() {
+  listInfoForView() {
     // tabs > categories > topics > name
     var aSections = Groups.aGroups;
     _.each(aSections, function(tab) {
