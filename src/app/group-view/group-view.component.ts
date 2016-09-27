@@ -14,15 +14,29 @@ export class GroupViewComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    var aSections = Groups.aSections;
-    _.each(aSections, function(section) {
-      _.each(section.categories, function(category) {
-        _.each(category.topics, function(topic) {
+    this.aSections = listInfoForView();
+  }
+
+  function listInfoForView() {
+    // tabs > categories > topics > name
+    var aSections = Groups.aGroups;
+    _.each(aSections, function(tab) {
+      _.each(tab.categories, function(cat) {
+        _.each(cat.topics, function(topic) {
           topic.isCollapsed = true;
+          var aItems = [];
+          _.each(Groups.aArticles, function(article) {
+            _.each(article.paths, function(path) {
+              var aPath = path.split(".");
+              if (tab.code === aPath[0] && cat.code === aPath[1] && topic.code === aPath[2]) {
+                aItems.push(article);
+              }
+            });
+          });
+          topic.items = aItems;
         });
       });
     });
-    this.aSections = aSections;
+    return aSections;
   }
-
 }

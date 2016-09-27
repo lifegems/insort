@@ -1,4 +1,83 @@
 export class Groups {
+
+  static aGroups = [
+    {
+      code: "PEOPLE",
+      name: "People",
+      categories: [
+        {
+          code: 'BIBLEWRITERS',
+          name: 'Writers of the Bible',
+          topics: [
+            {
+              code: 'GREEKSCRIPTURES',
+              name: 'Greek Scriptures'
+            }
+          ]
+        }
+      ]
+    }
+  ];
+
+  static aArticles = [
+    {
+      name: 'James',
+      href: '#', 
+      paths: [
+        'PEOPLE.BIBLEWRITERS.GREEKSCRIPTURES'
+      ]
+    },
+    {
+      name: 'John',
+      href: '#',
+      paths: [
+        'PEOPLE.BIBLEWRITERS.GREEKSCRIPTURES'
+      ]
+    },
+    {
+      name: 'Jude',
+      href: '#',
+      paths: [
+        'PEOPLE.BIBLEWRITERS.GREEKSCRIPTURES'
+      ]
+    },
+    {
+      name: 'Luke',
+      href: '#',
+      paths: [
+        'PEOPLE.BIBLEWRITERS.GREEKSCRIPTURES'
+      ]
+    },
+    {
+      name: 'Mark',
+      href: '#',
+      paths: [
+        'PEOPLE.BIBLEWRITERS.GREEKSCRIPTURES'
+      ]
+    },
+    {
+      name: 'Matthew',
+      href: '#',
+      paths: [
+        'PEOPLE.BIBLEWRITERS.GREEKSCRIPTURES'
+      ]
+    },
+    {
+      name: 'Paul',
+      href: '#',
+      paths: [
+        'PEOPLE.BIBLEWRITERS.GREEKSCRIPTURES'
+      ]
+    },
+    {
+      name: 'Peter',
+      href: '#',
+      paths: [
+        'PEOPLE.BIBLEWRITERS.GREEKSCRIPTURES'
+      ]
+    }
+  ];
+
   static aSections = [
     {
       name: "People",

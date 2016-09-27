@@ -5,7 +5,7 @@
       <h2>Categories</h2>
       <p>Use the In-sort tool to easily find articles in the Insight book. To find an article, select the category and section that it might appear. Then you will find a list of topics and related items. For example, you might be interested in reading about <i>apples</i>. Navigate to Things > Food > Fruits > Apple</p>
       <ngb-tabset>
-        <ngb-tab *ngFor="let section of aSections" title="{{ section.name }}">
+        <ngb-tab class="tab-scroll" *ngFor="let section of aSections" title="{{ section.name }}">
           <template ngbTabContent>
             <ngb-accordion [closeOthers]="true">
               <ngb-panel *ngFor="let cat of section.categories">

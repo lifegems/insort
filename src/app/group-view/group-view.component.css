@@ -6,3 +6,7 @@
 	background-color: #ddccdd;
 	text-decoration: none;
 }
+
+.tab-scroll {
+	overflow-y: scroll;
+}
