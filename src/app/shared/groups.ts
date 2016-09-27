@@ -30,6 +30,43 @@ export class Groups {
           ]
         }
       ]
+    },
+    {
+      code: 'INDEX',
+      name: 'Index',
+      categories: [
+        {
+          code: 'ALPHA',
+          name: 'Alphabetical Listing',
+          topics: [
+            { code: 'A', name: 'A' },
+            { code: 'B', name: 'B' },
+            { code: 'C', name: 'C' },
+            { code: 'D', name: 'D' },
+            { code: 'E', name: 'E' },
+            { code: 'F', name: 'F' },
+            { code: 'G', name: 'G' },
+            { code: 'H', name: 'H' },
+            { code: 'I', name: 'I' },
+            { code: 'J', name: 'J' },
+            { code: 'K', name: 'K' },
+            { code: 'L', name: 'L' },
+            { code: 'M', name: 'M' },
+            { code: 'N', name: 'N' },
+            { code: 'O', name: 'O' },
+            { code: 'P', name: 'P' },
+            { code: 'Q', name: 'Q' },
+            { code: 'R', name: 'R' },
+            { code: 'S', name: 'S' },
+            { code: 'T', name: 'T' },
+            { code: 'U', name: 'U' },
+            { code: 'V', name: 'V' },
+            { code: 'W', name: 'W' },
+            { code: 'Y', name: 'Y' },
+            { code: 'Z', name: 'Z' }
+          ]
+        }
+      ]
     }
   ];
 

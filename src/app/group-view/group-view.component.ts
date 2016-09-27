@@ -32,6 +32,9 @@ export class GroupViewComponent implements OnInit {
                 aItems.push(article);
               }
             });
+            if (tab.code === 'INDEX' && article.name.charAt(0) == topic.code) {
+              aItems.push(article);
+            }
           });
           topic.items = aItems;
         });
