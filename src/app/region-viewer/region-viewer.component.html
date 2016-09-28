@@ -10,5 +10,5 @@
 </div>
 
 <div *ngIf="display === 'HEADINGS'">
-	<app-headings-subject-viewer *ngFor="let childsubject of subjects" [subject]="childsubject" [collapsed]="true"></app-headings-subject-viewer>
+	<app-headings-subject-viewer *ngFor="let childsubject of subjects" [subject]="childsubject" [collapsed]="subjects.length > 2"></app-headings-subject-viewer>
 </div>

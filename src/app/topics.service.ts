@@ -1245,7 +1245,9 @@ export class TopicsService {
       {
          name: "Amos",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200000246",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Amos, Book of",
@@ -5552,7 +5554,9 @@ export class TopicsService {
       {
          name: "Daniel",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200001117",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Daniel, Book of",
@@ -5617,7 +5621,9 @@ export class TopicsService {
       {
          name: "David",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200001130",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "David, City of",
@@ -7273,7 +7279,9 @@ export class TopicsService {
       {
          name: "Ezekiel",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200001469",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Ezekiel, Book of",
@@ -7303,7 +7311,9 @@ export class TopicsService {
       {
          name: "Ezra",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200001475",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Ezra, Book of",
@@ -7852,7 +7862,9 @@ export class TopicsService {
       {
          name: "Gad",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200001583",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Gadarenes",
@@ -8847,7 +8859,9 @@ export class TopicsService {
       {
          name: "Habakkuk",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200001789",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Habakkuk, Book of",
@@ -8962,7 +8976,9 @@ export class TopicsService {
       {
          name: "Haggai",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200001812",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Haggai, Book of",
@@ -10336,7 +10352,9 @@ export class TopicsService {
       {
          name: "Hosea",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002086",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Hosea, Book of",
@@ -10932,7 +10950,9 @@ export class TopicsService {
       {
          name: "Isaiah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002204",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Isaiah, Book of",
@@ -11477,7 +11497,9 @@ export class TopicsService {
       {
          name: "James",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002313",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.GREEKSCRIPTURES'
+         ]
       },
       {
          name: "James, Letter of",
@@ -11997,7 +12019,9 @@ export class TopicsService {
       {
          name: "Jeremiah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002421",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Jeremiah, Book of",
@@ -12297,7 +12321,9 @@ export class TopicsService {
       {
          name: "Joel",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002481",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Joel, Book of",
@@ -12337,7 +12363,9 @@ export class TopicsService {
       {
          name: "John",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002489",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.GREEKSCRIPTURES'
+         ]
       },
       {
          name: "John, Good News According to",
@@ -12407,7 +12435,9 @@ export class TopicsService {
       {
          name: "Jonah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002503",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Jonah, Book of",
@@ -12507,7 +12537,9 @@ export class TopicsService {
       {
          name: "Joshua",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002523",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Joshua, Book of",
@@ -12602,7 +12634,9 @@ export class TopicsService {
       {
          name: "Jude",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002542",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.GREEKSCRIPTURES'
+         ]
       },
       {
          name: "Jude, the Letter of",
@@ -13479,7 +13513,9 @@ export class TopicsService {
       {
          name: "Lemuel",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002717",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Lentil",
@@ -13848,7 +13884,9 @@ export class TopicsService {
       {
          name: "Luke",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002790",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.GREEKSCRIPTURES'
+         ]
       },
       {
          name: "Luke, Good News According to",
@@ -14412,7 +14450,9 @@ export class TopicsService {
       {
          name: "Mark, I",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002902",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.GREEKSCRIPTURES'
+         ]
       },
       {
          name: "Mark, II",
@@ -14567,7 +14607,9 @@ export class TopicsService {
       {
          name: "Matthew",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002938",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.GREEKSCRIPTURES'
+         ]
       },
       {
          name: "Matthew, Good News According to",
@@ -15037,7 +15079,9 @@ export class TopicsService {
       {
          name: "Micah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003032",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Micah, Book of",
@@ -15432,7 +15476,9 @@ export class TopicsService {
       {
          name: "Mordecai",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003111",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Moreh",
@@ -15468,7 +15514,8 @@ export class TopicsService {
          name: "Moses",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003118",
          paths: [
-          'INDEX.SUBJECT.AARON'
+            'INDEX.SUBJECT.AARON',
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
          ]
       },
       {
@@ -15739,7 +15786,9 @@ export class TopicsService {
       {
          name: "Nahum",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003172",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Nahum, Book of",
@@ -15799,7 +15848,9 @@ export class TopicsService {
       {
          name: "Nathan",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003184",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Nathanael",
@@ -15939,7 +15990,9 @@ export class TopicsService {
       {
          name: "Nehemiah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003212",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Nehemiah, Book of",
@@ -16314,7 +16367,9 @@ export class TopicsService {
       {
          name: "Obadiah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003287",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Obadiah, Book of",
@@ -16881,7 +16936,9 @@ export class TopicsService {
       {
          name: "Paul",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003406",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.GREEKSCRIPTURES'
+         ]
       },
       {
          name: "Paulus",
@@ -17108,7 +17165,9 @@ export class TopicsService {
       {
          name: "Peter",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003451",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.GREEKSCRIPTURES'
+         ]
       },
       {
          name: "Peter, Letters of",
@@ -18943,7 +19002,9 @@ export class TopicsService {
       {
          name: "Samuel",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003824",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Samuel, Books of",
@@ -20688,7 +20749,9 @@ export class TopicsService {
       {
          name: "Solomon",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200004178",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Son",
@@ -23207,7 +23270,9 @@ export class TopicsService {
       {
          name: "Zechariah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200004681",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Zechariah, Book of",
@@ -23282,7 +23347,9 @@ export class TopicsService {
       {
          name: "Zephaniah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200004696",
-         paths: []
+         paths: [
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+         ]
       },
       {
          name: "Zephaniah, Book of",
