@@ -1,8 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 import { SubjectContainer } from './../shared/subject-container';
-import { TopicsService } from './../topics.service';
 import { Topic } from './../shared/topic';
+import { TopicsService } from './../topics.service';
 
 @Component({
   selector: 'app-subject-viewer',
@@ -11,7 +11,6 @@ import { Topic } from './../shared/topic';
 })
 export class SubjectViewerComponent implements OnInit {
   @Input() subject: SubjectContainer;
-  @Input() hideTopics: boolean = false;
 
   topics: Topic[];
 

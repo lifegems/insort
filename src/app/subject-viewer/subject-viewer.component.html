@@ -1,6 +1,9 @@
-<span class="h3 cursor-hover" (click)="subject.isCollapsed = !subject.isCollapsed">{{ subject.name }}</span>
+<div class="card col-md-6">
+  <div class="card-block">
+    <span class="h3 card-text cursor-hover" (click)="subject.isCollapsed = !subject.isCollapsed">{{ subject.name }}</span>
 
-<div *ngIf="!hideTopics">
-	<br>
-	<app-topic-viewer [ngbCollapse]="subject.isCollapsed" *ngFor="let topic of topics" [topic]="topic"></app-topic-viewer>
+    <div class="card-text">
+      <app-topic-viewer [ngbCollapse]="subject.isCollapsed" *ngFor="let topic of topics" [topic]="topic"></app-topic-viewer>
+    </div>
+  </div>
 </div>

@@ -1,5 +1,6 @@
 <div *ngIf="display === 'ALPHA'">
-	<app-subject-viewer *ngFor="let childsubject of subjects" [subject]="childsubject" [hideTopics]="true"></app-subject-viewer>
+	<app-alpha-subject-viewer *ngFor="let childsubject of subjects" [subject]="childsubject" (click)="select(childsubject)"></app-alpha-subject-viewer>
+	<app-topic-viewer *ngFor="let topic of topics" [topic]="topic"></app-topic-viewer>
 </div>
 
 <div *ngIf="display === 'HEADINGS'">
