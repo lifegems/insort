@@ -13,6 +13,7 @@ import { TopicsService } from './topics.service';
 import { TopicViewerComponent } from './topic-viewer/topic-viewer.component';
 import { RegionViewerComponent } from './region-viewer/region-viewer.component';
 import { AlphaSubjectViewerComponent } from './alpha-subject-viewer/alpha-subject-viewer.component';
+import { HeadingsSubjectViewerComponent } from './headings-subject-viewer/headings-subject-viewer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AlphaSubjectViewerComponent } from './alpha-subject-viewer/alpha-subjec
     SubjectViewerComponent,
     TopicViewerComponent,
     RegionViewerComponent,
-    AlphaSubjectViewerComponent
+    AlphaSubjectViewerComponent,
+    HeadingsSubjectViewerComponent
   ],
   imports: [
     BrowserModule,

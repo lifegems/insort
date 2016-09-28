@@ -6,19 +6,18 @@ import { TopicsService } from './../topics.service';
 import { SubjectViewerComponent } from './../subject-viewer/subject-viewer.component';
 
 @Component({
-  selector: 'app-alpha-subject-viewer',
-  templateUrl: './alpha-subject-viewer.component.html',
-  styleUrls: ['./alpha-subject-viewer.component.css']
+  selector: 'app-headings-subject-viewer',
+  templateUrl: './headings-subject-viewer.component.html',
+  styleUrls: ['./headings-subject-viewer.component.css']
 })
-export class AlphaSubjectViewerComponent extends SubjectViewerComponent implements OnInit {
+export class HeadingsSubjectViewerComponent implements OnInit {
   @Input() subject: SubjectContainer;
   topics: Topic[];
 
-  constructor(topicsService: TopicsService) {
-    super(topicsService);
-  }
+  constructor(private topicsService: TopicsService) { }
 
   ngOnInit() {
+    this.topics = this.topicsService.listTopicsForPath(this.subject.path);
   }
 
 }
