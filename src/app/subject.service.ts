@@ -38,7 +38,7 @@ export class SubjectService {
         children: [
           {
             code: 'BIBLEWRITERS',
-            sorters: ['HEADINGS'],
+            displays: ['HEADINGS'],
             name: 'Writers of the Bible',
             children: [
               {
@@ -53,13 +53,31 @@ export class SubjectService {
           },
           {
             code: 'KINGSOFISRAEL',
-            sorters: ['HEADINGS'],
+            displays: ['HEADINGS'],
             name: 'Kings of Israel',
             children: [
               {
-                code: '10TRIBE',
+                code: 'ISRAEL',
                 name: 'Ten-Tribe Kingdom of Israel'
+              },
+              {
+                code: 'JUDAH',
+                name: 'Two-Tribe Kingdom of Judah'
               }
+            ]
+          }
+        ]
+      },
+      {
+        code: 'GEO',
+        name: 'Geography',
+        children: [
+          {
+            code: 'POWERS',
+            name: 'World Powers',
+            displays: ['HEADINGS'],
+            children: [
+              { code: 'EGYPT', name: 'Egypt' }
             ]
           }
         ]
@@ -71,7 +89,7 @@ export class SubjectService {
           {
             code: 'ALPHA',
             name: 'Alphabetical Listing',
-            sorters: ['ALPHA', 'HEADINGS'],
+            displays: ['ALPHA', 'HEADINGS'],
             children: [
               { code: 'A', name: 'A' },
               { code: 'B', name: 'B' },
@@ -103,7 +121,7 @@ export class SubjectService {
           {
             code: 'SUBJECT',
             name: 'Subject Index',
-            sorters: ['HEADINGS'],
+            displays: ['HEADINGS'],
             children: [
               { code: 'AARON', name: 'Aaron' },
               { code: 'ABEL',  name: 'Abel' },
@@ -113,7 +131,7 @@ export class SubjectService {
           {
             code: 'SCRIPTURE',
             name: 'Scripture Index',
-            sorters: ['HEADINGS'],
+            displays: ['HEADINGS'],
             children: [
               { code: 'GEN', name: 'Genesis' },
               { code: 'EX', name: 'Exodus' }

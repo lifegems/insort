@@ -5,7 +5,6 @@
       <h2>Categories</h2>
       <p>Use the In-sort tool to easily find articles in the Insight book. To find an article, select the category and section that it might appear. Then you will find a list of topics and related items. For example, you might be interested in reading about <i>apples</i>. Navigate to Things > Food > Fruits > Apple</p>
 
-
       <ngb-tabset>
         <ngb-tab *ngFor="let tab of tabs" title="{{ tab.name }}">
           <template ngbTabContent>
@@ -16,45 +15,13 @@
                   <i class="pull-sm-right fa fa-chevron-down"></i>
                 </template>
                 <template ngbPanelContent>
-                  <app-region-viewer [subjects]="child.children" [sorters]="child.sorters"></app-region-viewer>
+                  <app-region-viewer [subjects]="child.children" [displays]="child.displays"></app-region-viewer>
                 </template>
               </ngb-panel>
             </ngb-accordion>
           </template>
         </ngb-tab>
       </ngb-tabset>
-
-      <!-- <ngb-tabset>
-        <ngb-tab class="tab-scroll" *ngFor="let section of aSections" title="{{ section.name }}">
-          <template ngbTabContent>
-            <ngb-accordion [closeOthers]="true">
-              <ngb-panel *ngFor="let cat of section.categories">
-                <template ngbPanelTitle>
-                  {{ cat.name }} <span *ngIf="cat.isNew" class="tag tag-primary">NEW</span>
-                  <i class="pull-sm-right fa fa-chevron-down"></i>
-                </template>
-                <template ngbPanelContent>
-                  <div *ngFor="let topic of cat.topics" class="col-sm-6">
-                    <div class="card">
-                      <div class="card-block" (click)="topic.isCollapsed = !topic.isCollapsed">
-                        <div class="card-text text-primary">
-                          <b>{{ topic.name }}</b>
-                          <i class="pull-sm-right fa" [class.fa-chevron-down]="topic.isCollapsed" [class.fa-chevron-up]="!topic.isCollapsed"></i>
-                        </div>
-                      </div>
-                      <ul class="list-group list-group-flush" [ngbCollapse]="topic.isCollapsed">
-                        <a class="list-group-item bgd-lightgray-hover" href="{{ item.href }}" target="_onblank" *ngFor="let item of topic.items">
-                          {{ item.name }}
-                        </a>
-                      </ul>
-                    </div>
-                  </div>
-                </template>
-              </ngb-panel>
-            </ngb-accordion>
-          </template>
-        </ngb-tab>
-      </ngb-tabset> -->
     </div>
     <div class="col-sm-2"></div>
   </div>

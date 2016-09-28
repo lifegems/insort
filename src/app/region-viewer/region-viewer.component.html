@@ -1,6 +1,11 @@
-<div *ngIf="sorters.length > 1">
-	Sort by:
-	<a href="#" (click)="setDisplay(sorter)" *ngFor="let sorter of sorters">{{ sorter }} </a>
+<div *ngIf="displays.length > 1">
+	Display type:
+	<span *ngFor="let displaytype of displays">
+		<!-- TAG the selected option -->
+		<span *ngIf="displaytype === display" class="tag tag-default">{{ displaytype }} </span>
+		<!-- Normal a:href style for others -->
+		<a class="display-option" *ngIf="displaytype !== display" href="#" (click)="setDisplay(displaytype)">{{ displaytype }} </a>
+	</span>
 	<hr>
 </div>
 

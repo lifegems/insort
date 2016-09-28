@@ -12,22 +12,22 @@ import { TopicsService } from './../topics.service';
 })
 export class RegionViewerComponent implements OnInit {
   @Input() subjects: SubjectContainer[];
-  @Input() sorters: string[];
+  @Input() displays: string[];
   display: string;
   topics: Topic[];
 
   constructor(private topicsService: TopicsService) { }
 
   ngOnInit() {
-  	this.display = this.sorters[0];
+  	this.display = this.displays[0];
   }
 
   select(subject: SubjectContainer) {
     this.topics = this.topicsService.listTopicsForPath(subject.path);
   }
 
-  setDisplay(sorter: string) {
-    this.display = sorter;
+  setDisplay(display: string) {
+    this.display = display;
   }
 
 }

@@ -214,7 +214,9 @@ export class TopicsService {
       {
          name: "Abijah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200000041",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH'
+         ]
       },
       {
          name: "Abijam",
@@ -704,7 +706,7 @@ export class TopicsService {
          name: "Ahab",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200000138",
          paths: [
-          'PEOPLE.KINGSOFISRAEL.10TRIBE'
+          'PEOPLE.KINGSOFISRAEL.ISRAEL'
          ]
       },
       {
@@ -735,12 +737,17 @@ export class TopicsService {
       {
          name: "Ahaz",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200000144",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH',
+            'PEOPLE.KINGSOFISRAEL.ISRAEL'
+         ]
       },
       {
          name: "Ahaziah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200000145",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH'
+         ]
       },
       {
          name: "Ahban",
@@ -980,7 +987,9 @@ export class TopicsService {
       {
          name: "Alexandria",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200000193",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Algum",
@@ -1135,7 +1144,9 @@ export class TopicsService {
       {
          name: "Amaziah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200000224",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH'
+         ]
       },
       {
          name: "Ambassador",
@@ -1235,7 +1246,9 @@ export class TopicsService {
       {
          name: "Amon",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200000244",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH'
+         ]
       },
       {
          name: "Amorite",
@@ -1737,7 +1750,9 @@ export class TopicsService {
       {
          name: "Archaeology",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200000344",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Archangel",
@@ -2002,7 +2017,9 @@ export class TopicsService {
       {
          name: "Asa",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200000397",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH'
+         ]
       },
       {
          name: "Asahel",
@@ -2302,7 +2319,9 @@ export class TopicsService {
       {
          name: "Athaliah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200000457",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH'
+         ]
       },
       {
          name: "Atharim",
@@ -2447,7 +2466,9 @@ export class TopicsService {
       {
          name: "Azariah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200000486",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH'
+         ]
       },
       {
          name: "Azaz",
@@ -2657,7 +2678,9 @@ export class TopicsService {
       {
          name: "Baasha",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200000528",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.ISRAEL'
+         ]
       },
       {
          name: "Babel",
@@ -4106,7 +4129,9 @@ export class TopicsService {
       {
          name: "Brick",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200000822",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Bride-price",
@@ -4850,7 +4875,9 @@ export class TopicsService {
       {
          name: "Chronology",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200000970",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Chrysolite",
@@ -4885,7 +4912,9 @@ export class TopicsService {
       {
          name: "Circumcision",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200000977",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Cistern",
@@ -6302,12 +6331,16 @@ export class TopicsService {
       {
          name: "Egypt, Egyptian",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200001265",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Egypt, Torrent Valley of",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200001266",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Ehi",
@@ -6342,7 +6375,9 @@ export class TopicsService {
       {
          name: "Elah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200001273",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.ISRAEL'
+         ]
       },
       {
          name: "Elam",
@@ -6717,7 +6752,9 @@ export class TopicsService {
       {
          name: "Embalming",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200001348",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Embroidery",
@@ -7227,7 +7264,9 @@ export class TopicsService {
       {
          name: "Exodus, Book of",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200001459",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Exorcism",
@@ -8639,7 +8678,9 @@ export class TopicsService {
       {
          name: "Goshen",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200001745",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Gossip, Slander",
@@ -9023,7 +9064,9 @@ export class TopicsService {
       {
          name: "Hair",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200001821",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Hakkatan",
@@ -9975,7 +10018,9 @@ export class TopicsService {
       {
          name: "Hezekiah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002011",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH'
+         ]
       },
       {
          name: "Hezion",
@@ -10374,7 +10419,9 @@ export class TopicsService {
       {
          name: "Hoshea",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002090",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.ISRAEL'
+         ]
       },
       {
          name: "Hospitality",
@@ -11327,7 +11374,9 @@ export class TopicsService {
       {
          name: "Jacob",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002279",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Jacob’s Fountain",
@@ -11794,12 +11843,18 @@ export class TopicsService {
       {
          name: "Jehoahaz",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002372",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH',
+            'PEOPLE.KINGSOFISRAEL.ISRAEL'
+         ]
       },
       {
          name: "Jehoash",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002373",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH',
+            'PEOPLE.KINGSOFISRAEL.ISRAEL'
+         ]
       },
       {
          name: "Jehohanan",
@@ -11809,7 +11864,9 @@ export class TopicsService {
       {
          name: "Jehoiachin",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002375",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH'
+         ]
       },
       {
          name: "Jehoiada",
@@ -11819,7 +11876,9 @@ export class TopicsService {
       {
          name: "Jehoiakim",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002377",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH'
+         ]
       },
       {
          name: "Jehoiarib",
@@ -11839,7 +11898,10 @@ export class TopicsService {
       {
          name: "Jehoram",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002381",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH',
+            'PEOPLE.KINGSOFISRAEL.ISRAEL'
+         ]
       },
       {
          name: "Jehoshabeath",
@@ -11849,7 +11911,9 @@ export class TopicsService {
       {
          name: "Jehoshaphat",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002383",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH'
+         ]
       },
       {
          name: "Jehoshaphat, Low Plain of",
@@ -11919,7 +11983,9 @@ export class TopicsService {
       {
          name: "Jehu",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002401",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.ISRAEL'
+         ]
       },
       {
          name: "Jehubbah",
@@ -12071,7 +12137,9 @@ export class TopicsService {
       {
          name: "Jeroboam",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002431",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.ISRAEL',
+         ]
       },
       {
          name: "Jeroham",
@@ -12497,7 +12565,9 @@ export class TopicsService {
       {
          name: "Joseph",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002515",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Joses",
@@ -12549,7 +12619,9 @@ export class TopicsService {
       {
          name: "Josiah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002525",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH'
+         ]
       },
       {
          name: "Josiphiah",
@@ -12569,7 +12641,9 @@ export class TopicsService {
       {
          name: "Jotham",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002529",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH'
+         ]
       },
       {
          name: "Journey",
@@ -14068,7 +14142,9 @@ export class TopicsService {
       {
          name: "Madmenah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002826",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.ISRAEL'
+         ]
       },
       {
          name: "Madness",
@@ -14350,7 +14426,9 @@ export class TopicsService {
       {
          name: "Manasseh",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002882",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH'
+         ]
       },
       {
          name: "Manassites",
@@ -14799,7 +14877,9 @@ export class TopicsService {
       {
          name: "Memphis",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200002976",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Memucan",
@@ -15721,7 +15801,9 @@ export class TopicsService {
       {
          name: "Nadab",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003159",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.ISRAEL'
+         ]
       },
       {
          name: "Naggai",
@@ -16207,7 +16289,9 @@ export class TopicsService {
       {
          name: "Nile",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003255",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Nile Canals",
@@ -16252,7 +16336,9 @@ export class TopicsService {
       {
          name: "No, No-Amon",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003264",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Noadiah",
@@ -16526,7 +16612,9 @@ export class TopicsService {
       {
          name: "Omri",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003324",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.ISRAEL'
+         ]
       },
       {
          name: "On",
@@ -16983,12 +17071,16 @@ export class TopicsService {
       {
          name: "Pekah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003415",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.ISRAEL'
+         ]
       },
       {
          name: "Pekahiah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003416",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.ISRAEL'
+         ]
       },
       {
          name: "Pekod",
@@ -17202,7 +17294,9 @@ export class TopicsService {
       {
          name: "Pharaoh",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003458",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Pharisees",
@@ -17447,7 +17541,9 @@ export class TopicsService {
       {
          name: "Plague",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003507",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Plain",
@@ -17592,7 +17688,9 @@ export class TopicsService {
       {
          name: "Potsherd",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003536",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Potter",
@@ -18227,7 +18325,9 @@ export class TopicsService {
       {
          name: "Red Sea",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003669",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Reed",
@@ -18282,7 +18382,9 @@ export class TopicsService {
       {
          name: "Rehoboam",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003680",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH'
+         ]
       },
       {
          name: "Rehoboth",
@@ -18612,7 +18714,9 @@ export class TopicsService {
       {
          name: "River of Egypt",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003746",
-         paths: []
+         paths: [
+            'GEO.POWERS.EGYPT'
+         ]
       },
       {
          name: "Rizia",
@@ -19549,7 +19653,9 @@ export class TopicsService {
       {
          name: "Shallum",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200003933",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.ISRAEL'
+         ]
       },
       {
          name: "Shallun",
@@ -21863,7 +21969,9 @@ export class TopicsService {
       {
          name: "Tibni",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200004400",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.ISRAEL'
+         ]
       },
       {
          name: "Tidal",
@@ -22538,7 +22646,9 @@ export class TopicsService {
       {
          name: "Uzziah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200004535",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH'
+         ]
       },
       {
          name: "Uzziel",
@@ -23271,7 +23381,8 @@ export class TopicsService {
          name: "Zechariah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200004681",
          paths: [
-            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES'
+            'PEOPLE.BIBLEWRITERS.HEBREWSCIPTURES',
+            'PEOPLE.KINGSOFISRAEL.ISRAEL'
          ]
       },
       {
@@ -23292,7 +23403,9 @@ export class TopicsService {
       {
          name: "Zedekiah",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200004685",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.JUDAH'
+         ]
       },
       {
          name: "Zeeb",
@@ -23554,7 +23667,9 @@ export class TopicsService {
       {
          name: "Zimri",
          href: "http://wol.jw.org/en/wol/d/r1/lp-e/1200004737",
-         paths: []
+         paths: [
+            'PEOPLE.KINGSOFISRAEL.ISRAEL'
+         ]
       },
       {
          name: "Zin",

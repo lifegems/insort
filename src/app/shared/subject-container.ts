@@ -9,6 +9,6 @@ export class SubjectContainer {
   isCollapsed?: boolean;
   isNew?: boolean;
   path?: string;
-  sorters?: string[];
+  displays?: string[];
   topics?: Topic[];
 }
