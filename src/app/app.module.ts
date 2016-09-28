@@ -7,12 +7,20 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { GroupViewComponent } from './group-view/group-view.component';
+import { SubjectViewerComponent } from './subject-viewer/subject-viewer.component';
+
+import { TopicsService } from './topics.service';
+import { TopicViewerComponent } from './topic-viewer/topic-viewer.component';
+import { RegionViewerComponent } from './region-viewer/region-viewer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavMenuComponent,
-    GroupViewComponent
+    GroupViewComponent,
+    SubjectViewerComponent,
+    TopicViewerComponent,
+    RegionViewerComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +28,7 @@ import { GroupViewComponent } from './group-view/group-view.component';
     HttpModule,
     NgbModule
   ],
-  providers: [],
+  providers: [TopicsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

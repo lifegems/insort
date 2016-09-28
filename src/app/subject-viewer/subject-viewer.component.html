@@ -1,0 +1,6 @@
+<span class="h3 cursor-hover" (click)="subject.isCollapsed = !subject.isCollapsed">{{ subject.name }}</span>
+
+<div *ngIf="!hideTopics">
+	<br>
+	<app-topic-viewer [ngbCollapse]="subject.isCollapsed" *ngFor="let topic of topics" [topic]="topic"></app-topic-viewer>
+</div>
