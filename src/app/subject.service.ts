@@ -58,11 +58,11 @@ export class SubjectService {
             children: [
               {
                 code: 'ISRAEL',
-                name: 'Ten-Tribe Kingdom of Israel'
+                name: 'Israelite'
               },
               {
                 code: 'JUDAH',
-                name: 'Two-Tribe Kingdom of Judah'
+                name: 'Judean'
               }
             ]
           }

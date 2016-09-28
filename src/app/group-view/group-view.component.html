@@ -11,8 +11,10 @@
             <ngb-accordion [closeOthers]="true">
               <ngb-panel *ngFor="let child of tab.children">
                 <template ngbPanelTitle>
-                  {{ child.name }} <span *ngIf="child.isNew" class="tag tag-primary">NEW</span>
-                  <i class="pull-sm-right fa fa-chevron-down"></i>
+                  <div (click)="child.isCollapsed = !child.isCollapsed">
+                    {{ child.name }} <span *ngIf="child.isNew" class="tag tag-primary">NEW</span>
+                    <i class="pull-sm-right fa fa-chevron-down" [class.fa-chevron-down]="child.isCollapsed" [class.fa-chevron-up]="!child.isCollapsed"></i>
+                  </div>
                 </template>
                 <template ngbPanelContent>
                   <app-region-viewer [subjects]="child.children" [displays]="child.displays"></app-region-viewer>
