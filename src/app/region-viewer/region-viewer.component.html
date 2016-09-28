@@ -1,8 +1,14 @@
+<div *ngIf="sorters.length > 1">
+	Sort by:
+	<a href="#" (click)="setDisplay(sorter)" *ngFor="let sorter of sorters">{{ sorter }} </a>
+	<hr>
+</div>
+
 <div *ngIf="display === 'ALPHA'">
 	<app-alpha-subject-viewer *ngFor="let childsubject of subjects" [subject]="childsubject" (click)="select(childsubject)"></app-alpha-subject-viewer>
 	<app-topic-viewer *ngFor="let topic of topics" [topic]="topic"></app-topic-viewer>
 </div>
 
 <div *ngIf="display === 'HEADINGS'">
-	<app-headings-subject-viewer *ngFor="let childsubject of subjects" [subject]="childsubject"></app-headings-subject-viewer>
+	<app-headings-subject-viewer *ngFor="let childsubject of subjects" [subject]="childsubject" [collapsed]="true"></app-headings-subject-viewer>
 </div>

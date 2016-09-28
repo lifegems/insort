@@ -71,7 +71,7 @@ export class SubjectService {
           {
             code: 'ALPHA',
             name: 'Alphabetical Listing',
-            sorters: ['ALPHA'],
+            sorters: ['ALPHA', 'HEADINGS'],
             children: [
               { code: 'A', name: 'A' },
               { code: 'B', name: 'B' },

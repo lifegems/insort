@@ -12,6 +12,7 @@ import { SubjectViewerComponent } from './../subject-viewer/subject-viewer.compo
 })
 export class HeadingsSubjectViewerComponent implements OnInit {
   @Input() subject: SubjectContainer;
+  @Input() collapsed: boolean = false;
   topics: Topic[];
 
   constructor(private topicsService: TopicsService) { }

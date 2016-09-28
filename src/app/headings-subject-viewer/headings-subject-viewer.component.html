@@ -1,5 +1,7 @@
 <div class="col-md-6">
-	<p class="h4">{{ subject.name }}</p>
+	<p class="h4" (click)="collapsed = !collapsed">{{ subject.name }}</p>
 	<hr>
-	<p *ngFor="let topic of topics"><a href="{{ topic.href }}" target="_onblank">{{ topic.name }}</a></p>
+	<div [ngbCollapse]="collapsed">
+		<p *ngFor="let topic of topics"><a href="{{ topic.href }}" target="_onblank">{{ topic.name }}</a></p>
+	</div>
 </div>

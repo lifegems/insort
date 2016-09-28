@@ -26,4 +26,8 @@ export class RegionViewerComponent implements OnInit {
     this.topics = this.topicsService.listTopicsForPath(subject.path);
   }
 
+  setDisplay(sorter: string) {
+    this.display = sorter;
+  }
+
 }
