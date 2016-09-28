@@ -32,7 +32,7 @@ export class GroupViewComponent implements OnInit {
                 aItems.push(article);
               }
             });
-            if (tab.code === 'INDEX' && article.name.charAt(0) == topic.code) {
+            if (tab.code === 'INDEX' && cat.code === 'ALPHA' && article.name.charAt(0) == topic.code) {
               aItems.push(article);
             }
           });
