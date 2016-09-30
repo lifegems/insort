@@ -4,7 +4,7 @@
 		<!-- TAG the selected option -->
 		<span *ngIf="displaytype === display" class="tag tag-default">{{ displaytype }} </span>
 		<!-- Normal a:href style for others -->
-		<a class="display-option" *ngIf="displaytype !== display" href="#" (click)="setDisplay(displaytype)">{{ displaytype }} </a>
+		<a class="display-option" *ngIf="displaytype !== display" (click)="setDisplay(displaytype)">{{ displaytype }} </a>
 	</span>
 	<hr>
 </div>

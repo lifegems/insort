@@ -4,6 +4,11 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+// Routing
+import { RouterModule } from '@angular/router';
+import { RootRoutes } from './routes';
+
+// other components
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { GroupViewComponent } from './group-view/group-view.component';
@@ -30,7 +35,8 @@ import { HeadingsSubjectViewerComponent } from './headings-subject-viewer/headin
     BrowserModule,
     FormsModule,
     HttpModule,
-    NgbModule
+    NgbModule,
+    RouterModule.forRoot(RootRoutes)
   ],
   providers: [TopicsService],
   bootstrap: [AppComponent]
