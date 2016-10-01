@@ -19,7 +19,7 @@ export class WordsService implements OnInit {
       {
         word: "Anointed",
         definition: "A person chosen by God for a special purpose. Anointed Christians are the 144,000"
-      }
+      },
       {
         word: "Bible Students",
         definition: "Bible Students: Before 1931, Jehovah’s Witnesses were called Bible Students"
