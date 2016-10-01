@@ -1,0 +1,8 @@
+.selectedword {
+	background-color: #8888ff;
+}
+
+.selectedword-hover:hover {
+	cursor: pointer;
+	background-color: #aaaaff;
+}

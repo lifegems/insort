@@ -1,0 +1,11 @@
+<div class="col-md-3 pull-left-sm">
+  <ul class="list-group">
+    <li class="list-group-item selectedword-hover" [class.selectedword]="word === selectedWord" (click)="loadDefinition(word)" *ngFor="let word of words">{{ word.word }}</li>
+  </ul>
+</div>
+<div class="col-md-5">
+  <div class="" *ngIf="selectedWord">
+    <h4 class="">{{ selectedWord.word }}</h4>
+    <p class="">{{ selectedWord.definition }}</p>
+  </div>
+</div>
