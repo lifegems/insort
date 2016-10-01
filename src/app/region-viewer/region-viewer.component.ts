@@ -1,9 +1,9 @@
 import { Component, OnInit, Input } from '@angular/core';
 
-import { SubjectContainer } from './../shared/subject-container';
+import { SubjectContainer } from './../subject-viewer/subject-container';
 import { SubjectViewerComponent } from './../subject-viewer/subject-viewer.component';
-import { Topic } from './../shared/topic';
-import { TopicsService } from './../topics.service';
+import { Topic } from './../topic-viewer/topic';
+import { TopicsService } from './../topic-viewer/topics.service';
 
 @Component({
   selector: 'app-region-viewer',

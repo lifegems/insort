@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 
-import { Topic } from './shared/topic';
-import { SubjectContainer } from './shared/subject-container';
+import { Topic } from './topic';
+import { SubjectContainer } from './../subject-viewer/subject-container';
 
 var _ = require('underscore');
 

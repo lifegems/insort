@@ -1,4 +1,4 @@
-import { Topic } from './topic';
+import { Topic } from './../topic-viewer/topic';
 
 export class SubjectContainer {
   code: string;

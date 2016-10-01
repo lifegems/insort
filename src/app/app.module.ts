@@ -14,7 +14,7 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { GroupViewComponent } from './group-view/group-view.component';
 import { SubjectViewerComponent } from './subject-viewer/subject-viewer.component';
 
-import { TopicsService } from './topics.service';
+import { TopicsService } from './topic-viewer/topics.service';
 import { TopicViewerComponent } from './topic-viewer/topic-viewer.component';
 import { RegionViewerComponent } from './region-viewer/region-viewer.component';
 import { AlphaSubjectViewerComponent } from './alpha-subject-viewer/alpha-subject-viewer.component';

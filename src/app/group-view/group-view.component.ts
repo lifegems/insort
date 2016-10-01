@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
-import { SubjectService } from './../subject.service';
-import { TopicsService } from './../topics.service';
-import { Topic } from './../shared/topic';
-import { SubjectContainer } from './../shared/subject-container';
+import { SubjectService } from './../subject-viewer/subject.service';
+import { TopicsService } from './../topic-viewer/topics.service';
+import { Topic } from './../topic-viewer/topic';
+import { SubjectContainer } from './../subject-viewer/subject-container';
 import { SubjectViewerComponent } from './../subject-viewer/subject-viewer.component';
 import { RegionViewerComponent } from './../region-viewer/region-viewer.component';
 

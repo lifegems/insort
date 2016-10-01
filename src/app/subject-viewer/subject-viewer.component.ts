@@ -1,8 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 
-import { SubjectContainer } from './../shared/subject-container';
-import { Topic } from './../shared/topic';
-import { TopicsService } from './../topics.service';
+import { SubjectContainer } from './subject-container';
+import { Topic } from './../topic-viewer/topic';
+import { TopicsService } from './../topic-viewer/topics.service';
 
 @Component({
   selector: 'app-subject-viewer',
