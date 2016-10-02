@@ -1,8 +1,21 @@
 .selectedword {
-	background-color: #8888ff;
+	background-color: #55BFFF;
 }
 
 .selectedword-hover:hover {
 	cursor: pointer;
-	background-color: #aaaaff;
+	background-color: #A1DCFF;
+}
+
+.display--word {
+	color: #516E7F;
+}
+
+.display--def {
+	color: #2A5F7F;
+}
+
+.wordlist {
+	overflow-y: scroll;
+	height: 90%;
 }
